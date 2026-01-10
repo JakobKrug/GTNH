@@ -4,14 +4,15 @@
 Configure these in Instance Settings > Custom Commands:
 
 Pre-launch command:
-git pull origin main
+`git pull origin main`
 
 Post-exit command:
-git add . && git diff-index --quiet HEAD || (git commit -m "Auto-sync: $(date)" && git push origin main)
+`git add . && git diff-index --quiet HEAD || (git commit -m "Auto-sync: $(date)" && git push origin main)`
 
 ---
 
 ## REPOSITORY STRUCTURE (.gitignore)
+```bash
 # Block everything by default
 *
 .*
@@ -52,19 +53,7 @@ git add . && git diff-index --quiet HEAD || (git commit -m "Auto-sync: $(date)" 
 .minecraft/logs/
 .minecraft/backups/
 *.log
-
----
-
-## DEPLOY KEY SETUP FOR SECOND PC
-1. Generate key: ssh-keygen -t ed25519 -f ~/.ssh/id_gtnh_repo
-2. Add the contents of id_gtnh_repo.pub to GitHub Repo Settings > Deploy Keys.
-3. Enable "Allow write access".
-4. Edit ~/.ssh/config:
-   Host github.com-gtnh
-       HostName github.com
-       User git
-       IdentityFile ~/.ssh/id_gtnh_repo
-5. Clone using alias: git clone git@github.com-gtnh:USERNAME/REPO.git
+```
 
 ---
 
@@ -78,6 +67,7 @@ is logged in, the data inside the UUID folder is tracked and synced.
 ## CONFLICT RESOLUTION (LINUX/MACOS)
 Create a file named recovery.sh in the instance folder, run 'chmod +x recovery.sh', and use:
 
+```bash
 #!/bin/bash
 echo "------------------------------------------"
 echo "GTNH GIT RECOVERY TOOL (LINUX/MAC)"
@@ -103,12 +93,14 @@ case $choice in
         exit 0
         ;;
 esac
+```
 
 ---
 
 ## CONFLICT RESOLUTION (WINDOWS)
 Create a file named recovery.bat in the instance folder and use:
 
+```bash
 @echo off
 echo ------------------------------------------
 echo GTNH GIT RECOVERY TOOL (WINDOWS)
@@ -132,3 +124,4 @@ if "%choice%"=="1" (
     exit
 )
 pause
+```
