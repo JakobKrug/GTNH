@@ -23,7 +23,7 @@
 !/.minecraft/journeymap/
 !/.minecraft/visualprospecting/
 !/.minecraft/TCNodeTracker/
-!/.minecraft/texturepacks/
+!/.minecraft/resourcepacks/
 !/.minecraft/shaderpacks/
 !/.minecraft/config/
 !/.minecraft/screenshots/
@@ -32,7 +32,7 @@
 !/.minecraft/journeymap/**
 !/.minecraft/visualprospecting/**
 !/.minecraft/TCNodeTracker/**
-!/.minecraft/texturepacks/**
+!/.minecraft/resourcepacks/**
 !/.minecraft/shaderpacks/**
 !/.minecraft/config/**
 !/.minecraft/screenshots/**
