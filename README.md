@@ -7,7 +7,7 @@ Pre-launch command:
 `git pull origin main`
 
 Post-exit command:
-`git add . && git diff-index --quiet HEAD || (git commit -m "Auto-sync: $(date)" && git push origin main)`
+`git commit -a -m "Post Launch Sync" && git push origin main`
 
 ---
 
