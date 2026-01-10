@@ -4,7 +4,7 @@ fov:1.0
 gamma:1.0
 saturation:0.0
 renderDistance:12
-guiScale:2
+guiScale:4
 particles:0
 bobView:false
 anaglyph3d:false
@@ -174,7 +174,7 @@ key_key.toolProfileChange:0
 key_key.toggleFlight:0
 key_key.toggleMagnet:0
 key_key.toggleMagnetSelfPickup:0
-key_Unequip:0
+key_§7Unequip:0
 key_openmodslib.key.calc:13
 key_GT5U.power_goggles.open_config_gui:0
 key_GT5U.power_goggles.toggle_power_chart:0
