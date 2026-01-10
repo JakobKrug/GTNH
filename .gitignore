@@ -1,48 +1,36 @@
-# Ignore everything
+# 1. Block everything
 *
 .*
 
-# Allow Git files
+# 2. Allow Git and Prism Root
 !.gitignore
-
-# Allow Prism Root files
 !instance.cfg
 !mmc-pack.json
 !gtnh_icon.png
 
-# --- THE CLIMBING LOGIC ---
-# To see a file at .minecraft/journeymap/data/file.png, 
-# Git must be allowed to look into every parent folder.
-
+# 3. Open the door to .minecraft (but ignore its contents)
 !/.minecraft/
 .minecraft/*
 
-# Allow JourneyMap and its subfolders
+# 4. Open the doors to the data folders
 !/.minecraft/journeymap/
-.minecraft/journeymap/*
-!/.minecraft/journeymap/**/
-
-# Allow Visual Prospecting and its subfolders
 !/.minecraft/visualprospecting/
-.minecraft/visualprospecting/*
-!/.minecraft/visualprospecting/**/
-
-# Allow TCNodeTracker and its subfolders
 !/.minecraft/TCNodeTracker/
-.minecraft/TCNodeTracker/*
-!/.minecraft/TCNodeTracker/**/
 
-# --- WHITELIST FILES ---
+# 5. Now allow everything INSIDE those folders
+!/.minecraft/journeymap/**
+!/.minecraft/visualprospecting/**
+!/.minecraft/TCNodeTracker/**
+
+# 6. Explicitly allow the settings files
+!/.minecraft/knownkeys.txt
+!/.minecraft/localconfig.cfg
 !/.minecraft/options.txt
 !/.minecraft/optionsnf.txt
-!/.minecraft/localconfig.cfg
 !/.minecraft/servers.dat
-!/.minecraft/knownkeys.txt
 
-# --- THE BLACKLIST (Last rules win) ---
+# 7. Close the doors we don't want (Last rules win)
 .minecraft/journeymap/icon/
 .minecraft/journeymap/theme/
 .minecraft/journeymap/webmap/
 .minecraft/journeymap/colorpalette.*
-.minecraft/backups/
-.minecraft/logs/
