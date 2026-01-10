@@ -1,0 +1,37 @@
+# --- IGNORE EVERYTHING BY DEFAULT ---
+/*
+
+# --- PRISM LAUNCHER FILES ---
+# Sync the instance configuration and icon
+!/instance.cfg
+!/mmc-pack.json
+!/gtnh_icon.png
+
+# --- MINECRAFT FOLDER STRUCTURE ---
+!/.minecraft/
+.minecraft/*
+
+# --- SYNC SPECIFIC GAME DATA ---
+# JourneyMap & Prospecting
+!/.minecraft/journeymap/
+!/.minecraft/visualprospecting/
+!/.minecraft/TCNodeTracker/
+
+# Settings and UI
+!/.minecraft/options.txt
+!/.minecraft/optionsnf.txt
+!/.minecraft/localconfig.cfg
+!/.minecraft/servers.dat
+!/.minecraft/knownkeys.txt
+
+# --- CLEANUP / SUB-FOLDER EXCLUSIONS ---
+# Ignore the bulky webmap cache and logs
+.minecraft/journeymap/webmap/
+.minecraft/logs/
+.minecraft/backups/
+*.log
+*.tmp
+*.bak
+
+# --- ALLOW THE GITIGNORE ---
+!.gitignore
