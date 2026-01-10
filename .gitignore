@@ -17,7 +17,7 @@
 # Git won't see files inside .minecraft if the folder itself is ignored.
 # We "open the door" to .minecraft but ignore everything inside it except subfolders.
 !/.minecraft/
-.minecraft/*
+#.minecraft/*
 
 # 4. DATA WHITELIST (The "Doors")
 !/.minecraft/journeymap/
