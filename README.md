@@ -19,8 +19,6 @@ Post-exit command:
 
 # Launcher Metadata
 !.gitignore
-!instance.cfg
-!mmc-pack.json
 !gtnh_icon.png
 
 # Directory Climbing
