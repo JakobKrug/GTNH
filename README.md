@@ -11,50 +11,6 @@ Post-exit command:
 
 ---
 
-## REPOSITORY STRUCTURE (.gitignore)
-```bash
-# Block everything by default
-*
-.*
-
-# Launcher Metadata
-!.gitignore
-!gtnh_icon.png
-
-# Directory Climbing
-!/.minecraft/
-.minecraft/*
-
-# Data Whitelist
-!/.minecraft/journeymap/
-!/.minecraft/visualprospecting/
-!/.minecraft/TCNodeTracker/
-!/.minecraft/journeymap/**
-!/.minecraft/visualprospecting/**
-!/.minecraft/TCNodeTracker/**
-
-# Configs and Settings
-!/.minecraft/knownkeys.txt
-!/.minecraft/localconfig.cfg
-!/.minecraft/options.txt
-!/.minecraft/optionsnf.txt
-!/.minecraft/servers.dat
-!/.minecraft/config/visualprospecting.cfg
-!/.minecraft/shaderpacks/*.txt
-
-# Exclusions
-.minecraft/journeymap/data/sp/
-.minecraft/journeymap/icon/
-.minecraft/journeymap/theme/
-.minecraft/journeymap/webmap/
-.minecraft/journeymap/colorpalette.*
-.minecraft/logs/
-.minecraft/backups/
-*.log
-```
-
----
-
 ## MULTI-ACCOUNT AND UUID HANDLING
 Visual Prospecting uses UUID-based folders (e.g., .minecraft/visualprospecting/client/<UUID>/).
 The gitignore uses wildcard patterns (**/) to ensure that regardless of which Microsoft account 
