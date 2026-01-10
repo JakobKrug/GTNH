@@ -9,7 +9,6 @@
 # 2. ALLOW LAUNCHER METADATA
 # This keeps the instance recognizable by Prism Launcher
 !.gitignore
-!instance.cfg
 !mmc-pack.json
 !gtnh_icon.png
 
