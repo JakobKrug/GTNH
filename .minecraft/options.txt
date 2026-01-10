@@ -4,7 +4,7 @@ fov:1.0
 gamma:1.0
 saturation:0.0
 renderDistance:12
-guiScale:4
+guiScale:2
 particles:0
 bobView:false
 anaglyph3d:false
@@ -101,8 +101,6 @@ key_Special:0
 key_key.openCompendium:25
 key_key.personalBackpack:0
 key_key.betterquesting.quests:41
-key_navigator.key.action:211
-key_Toggle labels on the pollution overlay:25
 key_Gravi Fly Key:0
 key_Gravi Display Hud:0
 key_GraviSuite MedKit:0
@@ -110,6 +108,7 @@ key_openblocks.keybind.vario_switch:0
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
 key_HoloGlasses:-96
+key_navigator.key.action:211
 key_schematica.key.load:0
 key_schematica.key.save:0
 key_schematica.key.control:0
@@ -187,7 +186,6 @@ key_key.littletiles.rotateright:0
 key_key.littletiles.rotateleft:0
 key_key.littletiles.flip:0
 key_key.littletiles.mark:0
-key_MAtmos:62
 key_key.mm-ctrl:29
 key_key.mm-cut:45
 key_key.mm-copy:46

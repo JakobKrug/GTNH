@@ -10,6 +10,8 @@
 # This keeps the instance recognizable by Prism Launcher
 !.gitignore
 !gtnh_icon.png
+!post_game.sh
+!conflict.sh
 
 # 3. DIRECTORY CLIMBING
 # Git won't see files inside .minecraft if the folder itself is ignored.
@@ -26,6 +28,7 @@
 !/.minecraft/journeymap/**
 !/.minecraft/visualprospecting/**
 !/.minecraft/TCNodeTracker/**
+!/.minecraft/texturepacks/**
 
 # 6. SETTINGS & PREFERENCES
 !/.minecraft/knownkeys.txt
