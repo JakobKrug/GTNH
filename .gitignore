@@ -1,0 +1,33 @@
+# 1. Ignore everything everywhere
+*
+.*
+
+# 2. Allow the .gitignore itself
+!.gitignore
+
+# 3. Allow Prism Root files
+!instance.cfg
+!mmc-pack.json
+!gtnh_icon.png
+
+# 4. Allow the .minecraft folder and its immediate children
+!/.minecraft/
+.minecraft/*
+
+# 5. Whitelist the specific data folders
+!/.minecraft/journeymap/
+!/.minecraft/visualprospecting/
+!/.minecraft/TCNodeTracker/
+
+# 6. Whitelist specific settings files
+!/.minecraft/options.txt
+!/.minecraft/optionsnf.txt
+!/.minecraft/localconfig.cfg
+!/.minecraft/servers.dat
+!/.minecraft/knownkeys.txt
+
+# 7. Blacklist the static JourneyMap assets inside the whitelisted folders
+.minecraft/journeymap/icon/
+.minecraft/journeymap/theme/
+.minecraft/journeymap/webmap/
+.minecraft/journeymap/colorpalette.*
