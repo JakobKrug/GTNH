@@ -23,12 +23,19 @@
 !/.minecraft/journeymap/
 !/.minecraft/visualprospecting/
 !/.minecraft/TCNodeTracker/
+!/.minecraft/texturepacks/
+!/.minecraft/shaderpacks/
+!/.minecraft/config/
+!/.minecraft/screenshots/
 
 # 5. DATA WHITELIST (The "Contents")
 !/.minecraft/journeymap/**
 !/.minecraft/visualprospecting/**
 !/.minecraft/TCNodeTracker/**
 !/.minecraft/texturepacks/**
+!/.minecraft/shaderpacks/**
+!/.minecraft/config/**
+!/.minecraft/screenshots/**
 
 # 6. SETTINGS & PREFERENCES
 !/.minecraft/knownkeys.txt
