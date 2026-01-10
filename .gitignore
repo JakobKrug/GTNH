@@ -1,36 +1,57 @@
-# 1. Block everything
+# ==========================================
+# GTNH Git Sync Strategy (Whitelisting)
+# ==========================================
+
+# 1. Block everything by default to prevent gigabytes of mods/logs/saves
 *
 .*
 
-# 2. Allow Git and Prism Root
+# 2. ALLOW LAUNCHER METADATA
+# This keeps the instance recognizable by Prism Launcher
 !.gitignore
 !instance.cfg
 !mmc-pack.json
 !gtnh_icon.png
 
-# 3. Open the door to .minecraft (but ignore its contents)
+# 3. DIRECTORY CLIMBING
+# Git won't see files inside .minecraft if the folder itself is ignored.
+# We "open the door" to .minecraft but ignore everything inside it except subfolders.
 !/.minecraft/
 .minecraft/*
 
-# 4. Open the doors to the data folders
+# 4. DATA WHITELIST (The "Doors")
 !/.minecraft/journeymap/
 !/.minecraft/visualprospecting/
 !/.minecraft/TCNodeTracker/
 
-# 5. Now allow everything INSIDE those folders
+# 5. DATA WHITELIST (The "Contents")
 !/.minecraft/journeymap/**
 !/.minecraft/visualprospecting/**
 !/.minecraft/TCNodeTracker/**
 
-# 6. Explicitly allow the settings files
+# 6. SETTINGS & PREFERENCES
 !/.minecraft/knownkeys.txt
 !/.minecraft/localconfig.cfg
 !/.minecraft/options.txt
 !/.minecraft/optionsnf.txt
 !/.minecraft/servers.dat
 
-# 7. Close the doors we don't want (Last rules win)
+# ==========================================
+# BLACKLIST (The "Exceptions")
+# ==========================================
+
+# Ignore Singleplayer JourneyMap data (keeps repo clean for MP play)
+.minecraft/journeymap/data/sp/
+
+# Ignore static assets that the mod regenerates automatically
 .minecraft/journeymap/icon/
 .minecraft/journeymap/theme/
 .minecraft/journeymap/webmap/
 .minecraft/journeymap/colorpalette.*
+
+# Always ignore logs and backups
+.minecraft/logs/
+.minecraft/backups/
+*.log
+*.tmp
+*.bak
