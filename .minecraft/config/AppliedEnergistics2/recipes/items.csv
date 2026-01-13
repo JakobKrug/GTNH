@@ -1072,7 +1072,7 @@ battlegear2:flagpole:6, Dark Oak Flag Pole
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quite Expensive Decoration)
+ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -5478,43 +5478,43 @@ structurelib:blockhint:12, Hint general
 structurelib:blockhint:13, Hint air
 structurelib:blockhint:14, Hint no air
 structurelib:blockhint:15, Hint error
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
-ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:infusedFarmland, Infused Farmland
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:forcefield, Forcefield
 ThaumicTinkerer:travelStairs, Paving Stair of Travel
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
+ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
 ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:infusedFarmland, Infused Farmland
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:nitorGas, Nitor Gas
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:gaseousShadow, Gaseous Shadow
 ThaumicTinkerer:magnet:0, Kinetic Attractor
 ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:infusedGrainBlock, Imbued Grain
-ThaumicTinkerer:gaseousLight, Gaseous Light
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
+ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
 ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:gaseousShadow, Gaseous Shadow
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:infusedGrainBlock, Imbued Grain
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:gaseousLight, Gaseous Light
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:wardSlab:0, Paving Slab of Warding
-ThaumicTinkerer:wardSlabFull:0, Paving Slab of Warding
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:nitorGas, Nitor Gas
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -17901,6 +17901,21 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Certus Quartz Sla
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Certus Quartz Pillar Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Silverwood Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Crusted Taint
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Flesh
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Amber Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Amber Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Warded Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Obsidian Tile
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Thaumium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Tallow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Ancient Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Ancient Rock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Crusted Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Silverwood Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tool Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Angel Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block Update Detector
@@ -25370,8 +25385,8 @@ dreamcraft:dreamcraft_EnrichedBacterialSludge_bucket, Bucket of Radioactive Bact
 dreamcraft:dreamcraft_FermentedBacterialSludge_bucket, Bucket of Fermented Bacterial Sludge
 dreamcraft:dreamcraft_Concrete_bucket, Bucket of Concrete
 dreamcraft:dreamcraft_Pollution_bucket, Bucket of Pollution
-dreamcraft:item.OvenGlove:0, Cake Glove (Left hand)
-dreamcraft:item.OvenGlove:1, Cake Glove (Right hand)
+dreamcraft:item.OvenGlove:0, Lava Glove (Left hand)
+dreamcraft:item.OvenGlove:1, Lava Glove (Right hand)
 dreamcraft:item.WitherProtectionRing, Wither Protection Ring
 dreamcraft:item.WoodenBrickForm, Wooden Form (Brick)
 IronChest:ironGoldUpgrade, Iron to Gold Chest Upgrade
@@ -43339,14 +43354,14 @@ ThaumicExploration:discountRing, Ring
 holoinventory:Hologlasses, Holo Glasses
 holoinventory:fluidRenderFakeItem, Fake Fluid Item
 ifu:ifu_buildingKit:0, §7Ore Finder Wand
-ironchestminecarts:minecart_chest_iron, Minecart with Iron Chest
 ironchestminecarts:minecart_chest_gold, Minecart with Gold Chest
-ironchestminecarts:minecart_chest_obsidian, Minecart with Obsidian Chest
-ironchestminecarts:minecart_chest_steel, Minecart with Steel Chest
-ironchestminecarts:minecart_chest_crystal, Minecart with Crystal Chest
 ironchestminecarts:minecart_chest_diamond, Minecart with Diamond Chest
+ironchestminecarts:minecart_chest_steel, Minecart with Steel Chest
 ironchestminecarts:minecart_chest_copper, Minecart with Copper Chest
 ironchestminecarts:minecart_chest_dirtchest9000, Minecart with DirtChest9000
+ironchestminecarts:minecart_chest_iron, Minecart with Iron Chest
+ironchestminecarts:minecart_chest_obsidian, Minecart with Obsidian Chest
+ironchestminecarts:minecart_chest_crystal, Minecart with Crystal Chest
 irontank:ironGoldUpgrade, Iron to Gold Tank Upgrade
 irontank:goldDiamondUpgrade, Gold to Diamond Tank Upgrade
 irontank:copperSilverUpgrade, Copper to Steel Tank Upgrade

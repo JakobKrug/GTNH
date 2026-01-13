@@ -4,7 +4,7 @@ fov:1.0
 gamma:1.0
 saturation:0.0
 renderDistance:12
-guiScale:2
+guiScale:4
 particles:0
 bobView:false
 anaglyph3d:false
@@ -38,7 +38,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-showInventoryAchievementHint:true
+showInventoryAchievementHint:false
 mipmapLevels:4
 anisotropicFiltering:1
 streamBytesPerPixel:0.5
@@ -101,6 +101,8 @@ key_Special:0
 key_key.openCompendium:25
 key_key.personalBackpack:0
 key_key.betterquesting.quests:41
+key_navigator.key.action:211
+key_Toggle labels on the pollution overlay:25
 key_Gravi Fly Key:0
 key_Gravi Display Hud:0
 key_GraviSuite MedKit:0
@@ -108,7 +110,6 @@ key_openblocks.keybind.vario_switch:0
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
 key_HoloGlasses:-96
-key_navigator.key.action:211
 key_schematica.key.load:0
 key_schematica.key.save:0
 key_schematica.key.control:0
