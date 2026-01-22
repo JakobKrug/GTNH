@@ -1,1 +1,4 @@
 **/*
+!/.minecraft/visualprospecting/*
+!/.minecraft/TCNodeTracker/*
+#!/.minecraft/TCNodeTracker/**/*
