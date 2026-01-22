@@ -1,3 +1,0 @@
-chat.start=Début du profilage
-chat.saved=Fait! Sortie enregistrée dans logs/necharacters-profiler.txt.
-chat.save_error=Oups! Une erreur s'est produite lors de l'écriture du fichier.
