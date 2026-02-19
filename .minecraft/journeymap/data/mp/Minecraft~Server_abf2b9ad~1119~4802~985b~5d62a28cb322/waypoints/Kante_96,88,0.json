@@ -1,0 +1,17 @@
+{
+  "id": "Kante_96,88,0",
+  "name": "Kante",
+  "icon": "waypoint-normal.png",
+  "x": 96,
+  "y": 88,
+  "z": 0,
+  "r": 148,
+  "g": 146,
+  "b": 153,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}
