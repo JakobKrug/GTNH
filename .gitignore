@@ -1,0 +1,34 @@
+# Ignore everything in the instance folder
+/*
+
+# Allow the .minecraft folder structure
+!/.minecraft/
+!/.gitignore
+!/conflict.bat
+!/conflict.sh
+!/post_game.bat
+!/post_game.sh
+!/README.md
+/.minecraft/*
+
+# Specific "Keep" List
+!/.minecraft/blueprints/
+!/.minecraft/config/dsurround/dsurround.cfg
+!/.minecraft/config/Waila.cfg
+!/.minecraft/config/WailaHarvestability.cfg
+!/.minecraft/config/lwjgl3ify.cfg
+!/.minecraft/journeymap/
+!/.minecraft/resourcepacks/
+!/.minecraft/saves/
+!/.minecraft/saves/NEI/
+!/.minecraft/schematics/
+!/.minecraft/screenshots/
+!/.minecraft/shaderpacks/
+!/.minecraft/TCNodeTracker/
+!/.minecraft/texturepacks/
+!/.minecraft/visualprospecting/
+
+# Block specific junk inside those folders
+*.log
+*.tmp
+.minecraft/journeymap/icon/
