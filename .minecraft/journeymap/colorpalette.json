@@ -1,7 +1,7 @@
 var colorpalette={
   "version": 3,
   "name": "JourneyMap Color Palette",
-  "generated": "Generated using JourneyMap 5.2.10 NoRadar for 1.7.10 on Sun Apr 05 22:59:34 CEST 2026",
+  "generated": "Generated using JourneyMap 5.2.10 NoRadar for 1.7.10 on Mon Apr 06 00:05:00 CEST 2026",
   "description": [
     "This file can be used to keep map colors consistent when changing resource packs.",
     "Edit at your own risk. You can view it using the colorpalette.html file.",
@@ -36577,14 +36577,14 @@ var colorpalette={
     {
       "name": "Cracked Dungeon Floor",
       "uid": "lootgames:LootGamesDungeonWall",
-      "meta": 5,
-      "color": "#465446"
+      "meta": 2,
+      "color": "#536253"
     },
     {
-      "name": "Cracked Dungeon Wall",
+      "name": "Cracked Dungeon Floor",
       "uid": "lootgames:LootGamesDungeonWall",
-      "meta": 0,
-      "color": "#4d5b4d"
+      "meta": 5,
+      "color": "#465446"
     },
     {
       "name": "Cracked Dungeon Wall",
@@ -40254,12 +40254,6 @@ var colorpalette={
       "color": "#405040"
     },
     {
-      "name": "Dungeon Floor",
-      "uid": "lootgames:LootGamesDungeonWall",
-      "meta": 2,
-      "color": "#536253"
-    },
-    {
       "name": "Dungeon Puzzle (Triggerable - Unlit)",
       "uid": "HardcoreEnderExpansion:dungeon_puzzle",
       "meta": 0,
@@ -40330,6 +40324,12 @@ var colorpalette={
       "uid": "HardcoreEnderExpansion:dungeon_puzzle",
       "meta": 15,
       "color": "#c07429"
+    },
+    {
+      "name": "Dungeon Wall",
+      "uid": "lootgames:LootGamesDungeonWall",
+      "meta": 0,
+      "color": "#4d5b4d"
     },
     {
       "name": "Durian",
@@ -71416,7 +71416,7 @@ var colorpalette={
       "color": "#7b6f6c"
     },
     {
-      "name": "QED (Quail Eating Ducks)",
+      "name": "QED (Quantum Entanglement Doohicky)",
       "uid": "ExtraUtilities:endConstructor",
       "meta": 0,
       "color": "#3d5a45"
