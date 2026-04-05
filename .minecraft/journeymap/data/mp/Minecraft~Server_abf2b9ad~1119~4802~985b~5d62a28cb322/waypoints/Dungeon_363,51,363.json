@@ -1,0 +1,17 @@
+{
+  "id": "Dungeon_363,51,363",
+  "name": "Dungeon",
+  "icon": "waypoint-normal.png",
+  "x": 363,
+  "y": 51,
+  "z": 363,
+  "r": 170,
+  "g": 49,
+  "b": 166,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

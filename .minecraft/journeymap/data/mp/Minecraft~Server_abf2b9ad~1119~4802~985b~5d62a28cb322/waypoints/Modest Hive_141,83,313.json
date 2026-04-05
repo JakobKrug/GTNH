@@ -1,0 +1,17 @@
+{
+  "id": "Modest Hive_141,83,313",
+  "name": "Modest Hive",
+  "icon": "waypoint-normal.png",
+  "x": 141,
+  "y": 83,
+  "z": 313,
+  "r": 243,
+  "g": 25,
+  "b": 7,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}
