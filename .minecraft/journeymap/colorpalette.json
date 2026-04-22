@@ -1,7 +1,7 @@
 var colorpalette={
   "version": 3,
   "name": "JourneyMap Color Palette",
-  "generated": "Generated using JourneyMap 5.2.10 NoRadar for 1.7.10 on Thu Apr 16 19:42:24 CEST 2026",
+  "generated": "Generated using JourneyMap 5.2.10 NoRadar for 1.7.10 on Wed Apr 22 18:50:41 CEST 2026",
   "description": [
     "This file can be used to keep map colors consistent when changing resource packs.",
     "Edit at your own risk. You can view it using the colorpalette.html file.",
@@ -29696,13 +29696,6 @@ var colorpalette={
     {
       "name": "Broken Dungeon Lamp",
       "uid": "lootgames:LootGamesDungeonLight",
-      "meta": 0,
-      "color": "#70784e",
-      "alpha": 0.4
-    },
-    {
-      "name": "Broken Dungeon Lamp",
-      "uid": "lootgames:LootGamesDungeonLight",
       "meta": 1,
       "color": "#404b41",
       "alpha": 0.4
@@ -36877,12 +36870,6 @@ var colorpalette={
     {
       "name": "Cracked Dungeon Ceiling",
       "uid": "lootgames:LootGamesDungeonWall",
-      "meta": 1,
-      "color": "#405040"
-    },
-    {
-      "name": "Cracked Dungeon Ceiling",
-      "uid": "lootgames:LootGamesDungeonWall",
       "meta": 4,
       "color": "#263226"
     },
@@ -40630,6 +40617,19 @@ var colorpalette={
       "uid": "BiomesOPlenty:plants",
       "meta": 3,
       "color": "#948a57"
+    },
+    {
+      "name": "Dungeon Ceiling",
+      "uid": "lootgames:LootGamesDungeonWall",
+      "meta": 1,
+      "color": "#405040"
+    },
+    {
+      "name": "Dungeon Lamp",
+      "uid": "lootgames:LootGamesDungeonLight",
+      "meta": 0,
+      "color": "#70784e",
+      "alpha": 0.4
     },
     {
       "name": "Dungeon Puzzle (Triggerable - Unlit)",
@@ -72467,7 +72467,7 @@ var colorpalette={
       "color": "#7b6f6c"
     },
     {
-      "name": "QED (Quail Eating Ducks)",
+      "name": "QED (Quadratic Equation Device)",
       "uid": "ExtraUtilities:endConstructor",
       "meta": 0,
       "color": "#3d5a45"
