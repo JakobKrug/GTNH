@@ -1,0 +1,17 @@
+{
+  "id": "nochn turm alla_908,72,-796",
+  "name": "nochn turm alla",
+  "icon": "waypoint-normal.png",
+  "x": 908,
+  "y": 72,
+  "z": -796,
+  "r": 55,
+  "g": 51,
+  "b": 116,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

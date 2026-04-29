@@ -1,0 +1,17 @@
+{
+  "id": "turm digga_1110,76,-1101",
+  "name": "turm digga",
+  "icon": "waypoint-normal.png",
+  "x": 1110,
+  "y": 76,
+  "z": -1101,
+  "r": 61,
+  "g": 66,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}
