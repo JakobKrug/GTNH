@@ -1,0 +1,17 @@
+{
+  "id": "Modest Apiary_40,70,216",
+  "name": "Modest Apiary",
+  "icon": "waypoint-normal.png",
+  "x": 40,
+  "y": 70,
+  "z": 216,
+  "r": 45,
+  "g": 217,
+  "b": 132,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}
