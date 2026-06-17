@@ -1,0 +1,17 @@
+{
+  "id": "Oil Spout_137,65,1464",
+  "name": "Oil Spout",
+  "icon": "waypoint-normal.png",
+  "x": 137,
+  "y": 65,
+  "z": 1464,
+  "r": 195,
+  "g": 253,
+  "b": 204,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

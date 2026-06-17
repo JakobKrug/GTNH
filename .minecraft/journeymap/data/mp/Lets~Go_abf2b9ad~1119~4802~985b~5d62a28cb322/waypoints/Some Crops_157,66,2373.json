@@ -1,0 +1,17 @@
+{
+  "id": "Some Crops_157,66,2373",
+  "name": "Some Crops",
+  "icon": "waypoint-normal.png",
+  "x": 157,
+  "y": 66,
+  "z": 2373,
+  "r": 46,
+  "g": 68,
+  "b": 157,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}
